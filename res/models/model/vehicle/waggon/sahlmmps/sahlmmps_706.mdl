@@ -1,0 +1,348 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.57, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -6.57, -1.5543934106827, -1.4061318635941, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.7661581039429, 1.5543934106827, 2.6876463890076, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_706.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/rumpf_706.1_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_710/dg_ba_710_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell 1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.1, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_710/dg_ba_710_lod0.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "Drehgestell 2",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.1, 0, 0, 1, },
+					},
+                    {
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.02, -1.32, 1.12, 1,	},
+    				},
+                    {
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.02, 0.58, 1.12, 1,	},
+    				},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+--[[
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_706.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_710/dg_ba_710_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -7, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_710/dg_ba_710_lod1.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 7, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,
+		},
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_706.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_710/dg_ba_710_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -7, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.51, 0, 0.45162, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_710.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_710/dg_ba_710_lod2.msh",
+								name = "",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "GRP_dg_ba_932_lod_0_1",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 7, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+]]
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1991,
+			yearTo = 1994,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("sahlmmps_706_name"),
+            description = _("sahlmmps_desc"),
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh", },
+                    backForwardParts = { 12, 13, },
+				},
+                {
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh", },
+				},
+                
+                {
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				name = "mw_schwer",
+			},
+			topSpeed = 33.3333333,
+			weight = 25,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					models = { "vehicle/waggon/sahlmmps/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 1,
+				},
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },								
+										},
+									},									
+								},
+							},
+							type = "STEEL",
+						},
+					},
+				}, 
+			},
+			loadSpeed = 4,
+			maxVolume = 70,
+			maxWeight = 84,
+			multipleUnitOnly = false,
+			groupFileName = "vehicle/waggon/sahlmmps/menu_sahlmmps.mdl",
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

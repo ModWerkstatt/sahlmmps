@@ -24,9 +24,10 @@ return {
         ["Fake_facs124_wagen"] = "Sahlmmps-t 706.1/ 713 / 721 Fake-Versionen aktivieren?",
         ["option_fake_facs124_desc"] = "Sollen die Fake-Versionen der Sahlmmps-t 706.1/ 713 / 721 verfügbar sein im Spiel?",
 
-        ["sahlmmps_menu"] = 		"Sahlmmps-t 706.1/ 713 / 721",
-		["sahlmmps_t_706_name"] = 	"Sahlmmps-t 706.1 (1987)",
-		["sahlmmps_desc"] = 		"Die ersten Wagen wurden im Auftrag der Deutschen Reichsbahn ab 1978 in Frankreich gebaut. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",
+        ["sahlmmps_menu"] = 			"Sahlmmps-t 706.1/ 713 / 721",
+		["sahlmmps_706_name"] = 		"Sahlmmps 706.1 (1991)",
+		["sahlmmps_706_dbag_name"] = 	"Sahlmmps 706.1 (1994)",
+		["sahlmmps_desc"] = 			"Die ersten Wagen wurden im Auftrag der Deutschen Reichsbahn ab 1978 in Frankreich gebaut. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",
         
 		
 		--- Fake ---
