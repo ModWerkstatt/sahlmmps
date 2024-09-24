@@ -102,7 +102,6 @@ return {
 			visibleFrom = 0,
 			visibleTo = 150,
 		},
---[[
         {
 			node = {
 				children = {
@@ -140,8 +139,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.1, 0, 0, 1, },
 					},
 					{
 						children = {
@@ -170,8 +169,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.1, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
@@ -218,8 +217,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.1, 0, 0, 1, },
 					},
 					{
 						children = {
@@ -248,8 +247,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.1, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
@@ -259,7 +258,6 @@ return {
 			visibleFrom = 500,
 			visibleTo = 1500,
 		},
-]]
 	},
 	metadata = {
 		availability = {

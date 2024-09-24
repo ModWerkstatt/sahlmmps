@@ -16,7 +16,6 @@ return {
 			node = {
 				children = {
 					{
-						_meshId = 1,
 						materials = { "vehicle/waggon/sahlmmps/sahlmmps_721_hbr.mtl", },
 						mesh = "vehicle/waggon/sahlmmps/rumpf_721_lod0.msh",
 						name = "rumpf",
@@ -94,6 +93,12 @@ return {
                         name = "zugschluss_de_front",
     					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.02, 0.58, 1.12, 1,	},
     				},
+					{
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_721_hbr.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/handbremse_721_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -102,7 +107,6 @@ return {
 			visibleFrom = 0,
 			visibleTo = 150,
 		},
---[[
         {
 			node = {
 				children = {
@@ -140,8 +144,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.1, 0, 0, 1, },
 					},
 					{
 						children = {
@@ -170,8 +174,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.1, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
@@ -218,8 +222,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.1, 0, 0, 1, },
 					},
 					{
 						children = {
@@ -248,8 +252,8 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
-						name = "GRP_dg_ba_932_lod_0_1",
-						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 7, 0, 0, 1, },
+						name = "Drehgestell",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.1, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
@@ -259,7 +263,6 @@ return {
 			visibleFrom = 500,
 			visibleTo = 1500,
 		},
-]]
 	},
 	metadata = {
 		availability = {
