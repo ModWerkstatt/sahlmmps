@@ -109,7 +109,7 @@ return {
 					{
 						_meshId = 1,
 						materials = { "vehicle/waggon/sahlmmps/sahlmmps_713_dbag.mtl", },
-						mesh = "vehicle/waggon/sahlmmps/rumpf_lod1.msh",
+						mesh = "vehicle/waggon/sahlmmps/rumpf_713_coil_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -187,7 +187,7 @@ return {
 					{
 						_meshId = 1,
 						materials = { "vehicle/waggon/sahlmmps/sahlmmps_713_dbag.mtl", },
-						mesh = "vehicle/waggon/sahlmmps/rumpf_lod2.msh",
+						mesh = "vehicle/waggon/sahlmmps/rumpf_713_coil_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
