@@ -30,8 +30,8 @@ return {
 		["sahlmmps_713_name"] = 		"Sahlmmps-t 713 DB AG (2000)",
 		["sahlmmps_721_name"] = 		"Sahlmmps-t 721 DB Schenker (2010)",
 		["sahlmmps_721_hbr_name"] = 	"Sahlmmps-t 721 DB Schenker mit Handbremse (2010)",
-		["sahlmmps_706_dbag_name"] = 	"Sahlmmps-t 713 DB AG mit Handbremse (2016)",
-		["sahlmmps_706_dbag2_name"] = 	"Sahlmmps-t 713 DB AG (2016)",
+		["sahlmmps_706_dbag_name"] = 	"Sahlmmps-t 721 DB AG mit Handbremse (2016)",
+		["sahlmmps_706_dbag2_name"] = 	"Sahlmmps-t 721 DB AG (2016)",
 		["sahlmmps_desc"] = 			"Die ersten Wagen wurden im Auftrag der Deutschen Reichsbahn ab 1978 in Frankreich gebaut. Die Güterwagen sind geeignet zur Beförderung vom Ladegut wie Sand, Kies, Erz oder Kohle.",
         
 		
