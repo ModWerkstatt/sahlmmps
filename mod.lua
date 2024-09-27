@@ -34,13 +34,17 @@ return {
 	local params = modParams[getCurrentModId()]
 
         local hidden = {
-			["sahlmmps_t_xxx_fake.mdl"] = true, 
-			["sahlmmps_t_xxx_fake.mdl"] = true, 
+			["706_name_fake.mdl"] = true, 
+			["706_dbag_name_fake.mdl"] = true, 
+			["713_name_fake.mdl"] = true, 
+			["721_name_fake.mdl"] = true, 
+			["721_hbr_name_fake.mdl"] = true, 
+			["721_dbag_name_fake.mdl"] = true, 
+			["721_dbag2_name_fake.mdl"] = true, 
         }
 
 		local modelFilter = function(fileName, data)
-			local modelName = fileName:match('/sahlmmps-t([^/]*.mdl)')
-							or fileName:match('/salmmnps_([^/]*.mdl)')
+			local modelName = fileName:match('/sahlmmps_([^/]*.mdl)')
 			return (modelName==nil or hidden[modelName]~=true)
 		end
 

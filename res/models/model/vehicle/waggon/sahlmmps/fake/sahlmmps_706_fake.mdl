@@ -16,8 +16,8 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/sahlmmps/sahlmmps_721_hbr.mtl", },
-						mesh = "vehicle/waggon/sahlmmps/rumpf_721_lod0.msh",
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_706.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/rumpf_706.1_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -93,12 +93,6 @@ return {
                         name = "zugschluss_de_front",
     					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.02, 0.58, 1.12, 1,	},
     				},
-					{
-						materials = { "vehicle/waggon/sahlmmps/sahlmmps_721_hbr.mtl", },
-						mesh = "vehicle/waggon/sahlmmps/handbremse_721_lod0.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -112,8 +106,8 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/sahlmmps/sahlmmps_721_hbr.mtl", },
-						mesh = "vehicle/waggon/sahlmmps/rumpf_721_lod1.msh",
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_706.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/rumpf_713_coil_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -190,8 +184,8 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/sahlmmps/sahlmmps_721_hbr.mtl", },
-						mesh = "vehicle/waggon/sahlmmps/rumpf_721_lod2.msh",
+						materials = { "vehicle/waggon/sahlmmps/sahlmmps_706.mtl", },
+						mesh = "vehicle/waggon/sahlmmps/rumpf_713_coil_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -266,15 +260,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2010,
-			yearTo = 2016,
+			yearFrom = 1991,
+			yearTo = 1994,
 		},
 		cost = {
-			price = -1,
-			priceScale = 1,
+			price = 0,
+			priceScale = 0,
 		},
 		description = {
-			name = _("sahlmmps_721_hbr_name"),
+			name = _("sahlmmps_706_name_fake"),
             description = _("sahlmmps_desc"),
 		},
 		maintenance = {
@@ -305,7 +299,7 @@ return {
 				name = "mw_schwer",
 			},
 			topSpeed = 33.3333333,
-			weight = 34,
+			weight = 28,
 		},
 		cargoSlotProvider = {
 			slots = {
@@ -1089,116 +1083,91 @@ return {
 				{
 					{
 						{
-							capacity = 84,
+							capacity = 4,
 							customCargoModels = {
 								configurations = {
 									{
 										slotLevels = {
-											{ },		
 											{ 0, 12 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
 											{ 0, 13 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 1, 12 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
 											{ 1, 13 },								
 										},
 									},	
 									{
-										slotLevels = {
-											{ },		
-											{ 7 },			
+										slotLevels = {	
 											{ 0, 7, 12 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },		
 											{ 0, 8, 13 },							
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
-											{ 7 },			
 											{ 1, 7, 12 },							
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },	
 											{ 1, 8, 13 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
 											{ 2, 9 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 7 },			
 											{ 3, 7, 10 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },	
 											{ 4, 8, 11 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 7 },			
 											{ 3, 7, 11 },							
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },	
 											{ 4, 8, 10 },							
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 5 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 6 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 7 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 8 },								
 										},
 									},	
@@ -1210,10 +1179,10 @@ return {
 				}, 
 			},
 			loadSpeed = 4,
-			maxVolume = 101,
+			maxVolume = 107,
 			maxWeight = 135,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/sahlmmps/menu_sahlmmps.mdl",
+			groupFileName = "vehicle/waggon/sahlmmps/fake/menu_sahlmmps_fake.mdl",
 			reversible = false,
 		},
 	},

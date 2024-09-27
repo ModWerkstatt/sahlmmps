@@ -270,11 +270,11 @@ return {
 			yearTo = 2016,
 		},
 		cost = {
-			price = -1,
-			priceScale = 1,
+			price = 0,
+			priceScale = 0,
 		},
 		description = {
-			name = _("sahlmmps_721_hbr_name"),
+			name = _("sahlmmps_721_hbr_name_fake"),
             description = _("sahlmmps_desc"),
 		},
 		maintenance = {
@@ -1089,116 +1089,91 @@ return {
 				{
 					{
 						{
-							capacity = 84,
+							capacity = 4,
 							customCargoModels = {
 								configurations = {
 									{
 										slotLevels = {
-											{ },		
 											{ 0, 12 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
 											{ 0, 13 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 1, 12 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
 											{ 1, 13 },								
 										},
 									},	
 									{
-										slotLevels = {
-											{ },		
-											{ 7 },			
+										slotLevels = {	
 											{ 0, 7, 12 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },		
 											{ 0, 8, 13 },							
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
-											{ 7 },			
 											{ 1, 7, 12 },							
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },	
 											{ 1, 8, 13 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
 											{ 2, 9 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 7 },			
 											{ 3, 7, 10 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },	
 											{ 4, 8, 11 },								
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 7 },			
 											{ 3, 7, 11 },							
 										},
 									},	
 									{
 										slotLevels = {
-											{ },		
-											{ 8 },	
 											{ 4, 8, 10 },							
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 5 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 6 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 7 },								
 										},
 									},
 									{
 										slotLevels = {
-											{ },		
 											{ 8 },								
 										},
 									},	
@@ -1213,7 +1188,7 @@ return {
 			maxVolume = 101,
 			maxWeight = 135,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/sahlmmps/menu_sahlmmps.mdl",
+			groupFileName = "vehicle/waggon/sahlmmps/fake/menu_sahlmmps_fake.mdl",
 			reversible = false,
 		},
 	},
