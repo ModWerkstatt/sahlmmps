@@ -299,7 +299,7 @@ return {
 				name = "mw_schwer",
 			},
 			topSpeed = 33.3333333,
-			weight = 28,
+			weight = 134,
 		},
 		cargoSlotProvider = {
 			slots = {
@@ -1179,7 +1179,7 @@ return {
 				}, 
 			},
 			loadSpeed = 4,
-			maxVolume = 107,
+			maxVolume = 1,
 			maxWeight = 135,
 			multipleUnitOnly = false,
 			groupFileName = "vehicle/waggon/sahlmmps/fake/menu_sahlmmps_fake.mdl",
