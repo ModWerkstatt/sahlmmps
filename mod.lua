@@ -34,13 +34,13 @@ return {
 	local params = modParams[getCurrentModId()]
 
         local hidden = {
-			["706_name_fake.mdl"] = true, 
-			["706_dbag_name_fake.mdl"] = true, 
-			["713_name_fake.mdl"] = true, 
-			["721_name_fake.mdl"] = true, 
-			["721_hbr_name_fake.mdl"] = true, 
-			["721_dbag_name_fake.mdl"] = true, 
-			["721_dbag2_name_fake.mdl"] = true, 
+			["706_fake.mdl"] = true, 
+			["706_dbag_fake.mdl"] = true, 
+			["713_dbag_fake.mdl"] = true, 
+			["721_fake.mdl"] = true, 
+			["721_hbr_fake.mdl"] = true, 
+			["721_dbag_fake.mdl"] = true, 
+			["721_dbag2_fake.mdl"] = true, 
         }
 
 		local modelFilter = function(fileName, data)
