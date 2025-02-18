@@ -1,7 +1,7 @@
 ﻿function data()
 return {
 	info = {
-		minorVersion = 2,
+		minorVersion = 0,
 		severityAdd = "NONE",
 		severityRemove = "WARNING",
 		name = _("mod_name"),
@@ -12,7 +12,7 @@ return {
 		        role = "CREATOR",
 		    },
 		},
-		tags = { "europe", "waggon", "schuettgut", "deutschland", "germany", "UIC", "gueterwagen", "db" },
+		tags = { "europe", "waggon", "deutschland", "germany", "UIC", "gueterwagen", "db" },
 		minGameVersion = 0,
 		dependencies = { },
 		url = { "" },
@@ -24,23 +24,23 @@ return {
 				values = { "No", "Yes", },
 				tooltip = _("option_fake_sahlmmps_desc"),
 				defaultIndex = 0,
-			},	
+			},
         },
 	},
 	options = {
 	},
-	
+
 	runFn = function (settings, modParams)
 	local params = modParams[getCurrentModId()]
 
         local hidden = {
-			["706_fake.mdl"] = true, 
-			["706_dbag_fake.mdl"] = true, 
-			["713_dbag_fake.mdl"] = true, 
-			["721_fake.mdl"] = true, 
-			["721_hbr_fake.mdl"] = true, 
-			["721_dbag_fake.mdl"] = true, 
-			["721_dbag2_fake.mdl"] = true, 
+			["706_fake.mdl"] = true,
+			["706_dbag_fake.mdl"] = true,
+			["713_dbag_fake.mdl"] = true,
+			["721_fake.mdl"] = true,
+			["721_hbr_fake.mdl"] = true,
+			["721_dbag_fake.mdl"] = true,
+			["721_dbag2_fake.mdl"] = true,
         }
 
 		local modelFilter = function(fileName, data)
