@@ -1,0 +1,39 @@
+{
+  "en": {
+	"menu_sahlmmps": "Sahlmmps-t 706.1 / 713 / 721",
+		
+	"fake": "Fake - ",
+	
+	"fake_sahlmmps": "Activate fake versions?",
+	"tooltip_sahlmmps_fake": "Should the fake versions of the Sahlmmps-t be activated?",
+		
+    "sahlmmps_menu" : "Sahlmmps-t 706.1/ 713 / 721",
+	"sahlmmps_706" : "Sahlmmps 706.1 DB (1991)",
+	"sahlmmps_706_dbag" : "Sahlmmps 706.1 DB AG (1994)",
+	"sahlmmps_713" : "Sahlmmps-t 713 DB AG (2000)",
+	"sahlmmps_721" : "Sahlmmps-t 721 DB Schenker (2010)",
+	"sahlmmps_721_hbr" : "Sahlmmps-t 721 DB Schenker with handbrake (2010)",
+	"sahlmmps_721_dbag" : "Sahlmmps-t 721 DB AG with handbrake (2016)",
+	"sahlmmps_721_dbag2" : "Sahlmmps-t 721 DB AG (2016)",
+	"sahlmmps_desc" : "In 1991, the Deutsche Bundesbahn procured new wagons for transporting coils. These wagons can carry up to 107 tonnes and have a tare weight of between 28 t and 34 t"
+	
+  },
+  "de": {
+    "menu_sahlmmps" : "Sahlmmps-t 706.1/ 713 / 721",
+	
+	"fake": "Fake -",	
+	
+	"fake_sahlmmps": "Fake-Versionen aktivieren?",
+	"tooltip_sahlmmps_fake": "Sollen die Fake-Versionen des Sahlmmps-t aktiviert werden?",
+	
+	"sahlmmps_706" : "Sahlmmps 706.1 DB (1991)",
+	"sahlmmps_706_dbag" : "Sahlmmps 706.1 DB AG (1994)",
+	"sahlmmps_713" : "Sahlmmps-t 713 DB AG (2000)",
+	"sahlmmps_721" : "Sahlmmps-t 721 DB Schenker (2010)",
+	"sahlmmps_721_hbr" : "Sahlmmps-t 721 DB Schenker mit Handbremse (2010)",
+	"sahlmmps_721_dbag" : "Sahlmmps-t 721 DB AG mit Handbremse (2016)",
+	"sahlmmps_721_dbag2" : "Sahlmmps-t 721 DB AG (2016)",
+	"sahlmmps_desc" : "1991 wurden bei der Deutschen Bundesbahn neue Wagen für den Transport von Coils beschafft. Diese Wagen können bis zu 107 Tonnen zuladen und haben ein Eigengewicht zwischen 28 t und 34 t."
+	
+    }
+}

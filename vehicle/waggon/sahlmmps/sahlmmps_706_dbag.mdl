@@ -1,0 +1,417 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.570000171661376953125, 1.55439341068267822265625, 3.96916103363037109375, },
+			bbMin = { -6.570000171661376953125, -1.55439341068267822265625, -1.40613186359405517578125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 4.76615810394287109375, 1.55439341068267822265625, 2.687646389007568359375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/sahlmmps_706_dbag.mtl", },
+							mesh = "msh/rumpf_706_1_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_710_lod0.msh",
+									name = "drehgestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+							},
+							name = "bogie",
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.099999904632568359375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_710_lod0.msh",
+									name = "drehgestell2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.099999904632568359375, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_vorne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.019999980926513671875, -1.32000005245208740234375, 1.12000000476837158203125, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_vorne2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.019999980926513671875, 0.579999983310699462890625, 1.12000000476837158203125, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_hinten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.019999980926513671875, 1.32000005245208740234375, 1.12000000476837158203125, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_hinten2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.019999980926513671875, -0.579999983310699462890625, 1.12000000476837158203125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/sahlmmps_706_dbag.mtl", },
+							mesh = "msh/rumpf_713_coil_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_710_lod1.msh",
+									name = "drehgestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+							},
+							name = "bogie",
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, -3.099999904632568359375, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_710_lod1.msh",
+									name = "drehgestell2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4515999853610992431640625, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_710.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5099999904632568359375, 0, 0.4515999853610992431640625, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, 0, 1, 0, 3.099999904632568359375, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 150,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/sahlmmps_706_dbag.mtl", },
+							mesh = "msh/rumpf_713_coil_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1994,
+				yearTo = 0,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("sahlmmps_desc"),
+				name = _("sahlmmps_706_dbag"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.333332061767578125,
+				weightEmpty = 28000,
+				weightMaxPayload = 71500,
+			},
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 0, },
+									{ 0, 1, },
+									{ 0, 1, 2, },
+									{ 0, 1, 2, 3, },
+									{ 0, 1, 2, 3, 4, },
+								},
+								{
+									{ },
+									{ 0, },
+								},
+								{
+									{ },
+									{ 1, 2, },
+								},
+								{
+									{ },
+									{ 0, 1, 2, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "body",
+						models = { "mw_beladung::/asset/beladung/coil_stahl.mdl", "mw_beladung::/asset/beladung/coil_stahl2.mdl", "mw_beladung::/asset/beladung/coil_stahl3.mdl", "mw_beladung::/asset/beladung/coil_stahl4.mdl", "mw_beladung::/asset/beladung/coil_stahl5.mdl", "mw_beladung::/asset/beladung/coil_stahl6.mdl", "mw_beladung::/asset/beladung/coil2_stahl.mdl", "mw_beladung::/asset/beladung/coil2_stahl2.mdl", "mw_beladung::/asset/beladung/coil2_stahl3.mdl", "mw_beladung::/asset/beladung/coil2_stahl4.mdl", "mw_beladung::/asset/beladung/coil2_stahl5.mdl", "mw_beladung::/asset/beladung/coil2_stahl6.mdl", "mw_beladung::/asset/beladung/coil3_stahl.mdl", "mw_beladung::/asset/beladung/coil3_stahl2.mdl", "mw_beladung::/asset/beladung/coil3_stahl3.mdl", "mw_beladung::/asset/beladung/coil3_stahl4.mdl", "mw_beladung::/asset/beladung/coil3_stahl5.mdl", "mw_beladung::/asset/beladung/coil3_stahl6.mdl", "mw_beladung::/asset/beladung/coil4_stahl.mdl", "mw_beladung::/asset/beladung/coil4_stahl2.mdl", "mw_beladung::/asset/beladung/coil4_stahl3.mdl", "mw_beladung::/asset/beladung/coil4_stahl4.mdl", "mw_beladung::/asset/beladung/coil4_stahl5.mdl", "mw_beladung::/asset/beladung/coil4_stahl6.mdl", "mw_beladung::/asset/beladung/coil5_stahl.mdl", "mw_beladung::/asset/beladung/coil5_stahl2.mdl", "mw_beladung::/asset/beladung/coil5_stahl3.mdl", "mw_beladung::/asset/beladung/coil5_stahl4.mdl", "mw_beladung::/asset/beladung/coil5_stahl5.mdl", "mw_beladung::/asset/beladung/coil5_stahl6.mdl", "mw_beladung::/asset/beladung/coil6_stahl.mdl", "mw_beladung::/asset/beladung/coil6_stahl2.mdl", "mw_beladung::/asset/beladung/coil6_stahl3.mdl", "mw_beladung::/asset/beladung/coil6_stahl4.mdl", "mw_beladung::/asset/beladung/coil6_stahl5.mdl", "mw_beladung::/asset/beladung/coil6_stahl6.mdl", "mw_beladung::/asset/beladung/coil7_stahl.mdl", "mw_beladung::/asset/beladung/coil7_stahl2.mdl", "mw_beladung::/asset/beladung/coil7_stahl3.mdl", "mw_beladung::/asset/beladung/coil7_stahl4.mdl", "mw_beladung::/asset/beladung/coil7_stahl5.mdl", "mw_beladung::/asset/beladung/coil7_stahl6.mdl", },
+						randomId = 0,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.5, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_beladung::/asset/beladung/coil_stahl.mdl", "mw_beladung::/asset/beladung/coil_stahl2.mdl", "mw_beladung::/asset/beladung/coil_stahl3.mdl", "mw_beladung::/asset/beladung/coil_stahl4.mdl", "mw_beladung::/asset/beladung/coil_stahl5.mdl", "mw_beladung::/asset/beladung/coil_stahl6.mdl", "mw_beladung::/asset/beladung/coil2_stahl.mdl", "mw_beladung::/asset/beladung/coil2_stahl2.mdl", "mw_beladung::/asset/beladung/coil2_stahl3.mdl", "mw_beladung::/asset/beladung/coil2_stahl4.mdl", "mw_beladung::/asset/beladung/coil2_stahl5.mdl", "mw_beladung::/asset/beladung/coil2_stahl6.mdl", "mw_beladung::/asset/beladung/coil3_stahl.mdl", "mw_beladung::/asset/beladung/coil3_stahl2.mdl", "mw_beladung::/asset/beladung/coil3_stahl3.mdl", "mw_beladung::/asset/beladung/coil3_stahl4.mdl", "mw_beladung::/asset/beladung/coil3_stahl5.mdl", "mw_beladung::/asset/beladung/coil3_stahl6.mdl", "mw_beladung::/asset/beladung/coil4_stahl.mdl", "mw_beladung::/asset/beladung/coil4_stahl2.mdl", "mw_beladung::/asset/beladung/coil4_stahl3.mdl", "mw_beladung::/asset/beladung/coil4_stahl4.mdl", "mw_beladung::/asset/beladung/coil4_stahl5.mdl", "mw_beladung::/asset/beladung/coil4_stahl6.mdl", "mw_beladung::/asset/beladung/coil5_stahl.mdl", "mw_beladung::/asset/beladung/coil5_stahl2.mdl", "mw_beladung::/asset/beladung/coil5_stahl3.mdl", "mw_beladung::/asset/beladung/coil5_stahl4.mdl", "mw_beladung::/asset/beladung/coil5_stahl5.mdl", "mw_beladung::/asset/beladung/coil5_stahl6.mdl", "mw_beladung::/asset/beladung/coil6_stahl.mdl", "mw_beladung::/asset/beladung/coil6_stahl2.mdl", "mw_beladung::/asset/beladung/coil6_stahl3.mdl", "mw_beladung::/asset/beladung/coil6_stahl4.mdl", "mw_beladung::/asset/beladung/coil6_stahl5.mdl", "mw_beladung::/asset/beladung/coil6_stahl6.mdl", "mw_beladung::/asset/beladung/coil7_stahl.mdl", "mw_beladung::/asset/beladung/coil7_stahl2.mdl", "mw_beladung::/asset/beladung/coil7_stahl3.mdl", "mw_beladung::/asset/beladung/coil7_stahl4.mdl", "mw_beladung::/asset/beladung/coil7_stahl5.mdl", "mw_beladung::/asset/beladung/coil7_stahl6.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5099999904632568359375, 0, 1.5, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_beladung::/asset/beladung/coil_stahl.mdl", "mw_beladung::/asset/beladung/coil_stahl2.mdl", "mw_beladung::/asset/beladung/coil_stahl3.mdl", "mw_beladung::/asset/beladung/coil_stahl4.mdl", "mw_beladung::/asset/beladung/coil_stahl5.mdl", "mw_beladung::/asset/beladung/coil_stahl6.mdl", "mw_beladung::/asset/beladung/coil2_stahl.mdl", "mw_beladung::/asset/beladung/coil2_stahl2.mdl", "mw_beladung::/asset/beladung/coil2_stahl3.mdl", "mw_beladung::/asset/beladung/coil2_stahl4.mdl", "mw_beladung::/asset/beladung/coil2_stahl5.mdl", "mw_beladung::/asset/beladung/coil2_stahl6.mdl", "mw_beladung::/asset/beladung/coil3_stahl.mdl", "mw_beladung::/asset/beladung/coil3_stahl2.mdl", "mw_beladung::/asset/beladung/coil3_stahl3.mdl", "mw_beladung::/asset/beladung/coil3_stahl4.mdl", "mw_beladung::/asset/beladung/coil3_stahl5.mdl", "mw_beladung::/asset/beladung/coil3_stahl6.mdl", "mw_beladung::/asset/beladung/coil4_stahl.mdl", "mw_beladung::/asset/beladung/coil4_stahl2.mdl", "mw_beladung::/asset/beladung/coil4_stahl3.mdl", "mw_beladung::/asset/beladung/coil4_stahl4.mdl", "mw_beladung::/asset/beladung/coil4_stahl5.mdl", "mw_beladung::/asset/beladung/coil4_stahl6.mdl", "mw_beladung::/asset/beladung/coil5_stahl.mdl", "mw_beladung::/asset/beladung/coil5_stahl2.mdl", "mw_beladung::/asset/beladung/coil5_stahl3.mdl", "mw_beladung::/asset/beladung/coil5_stahl4.mdl", "mw_beladung::/asset/beladung/coil5_stahl5.mdl", "mw_beladung::/asset/beladung/coil5_stahl6.mdl", "mw_beladung::/asset/beladung/coil6_stahl.mdl", "mw_beladung::/asset/beladung/coil6_stahl2.mdl", "mw_beladung::/asset/beladung/coil6_stahl3.mdl", "mw_beladung::/asset/beladung/coil6_stahl4.mdl", "mw_beladung::/asset/beladung/coil6_stahl5.mdl", "mw_beladung::/asset/beladung/coil6_stahl6.mdl", "mw_beladung::/asset/beladung/coil7_stahl.mdl", "mw_beladung::/asset/beladung/coil7_stahl2.mdl", "mw_beladung::/asset/beladung/coil7_stahl3.mdl", "mw_beladung::/asset/beladung/coil7_stahl4.mdl", "mw_beladung::/asset/beladung/coil7_stahl5.mdl", "mw_beladung::/asset/beladung/coil7_stahl6.mdl", },
+						randomId = 2,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5099999904632568359375, 0, 1.5, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_beladung::/asset/beladung/coil_stahl.mdl", "mw_beladung::/asset/beladung/coil_stahl2.mdl", "mw_beladung::/asset/beladung/coil_stahl3.mdl", "mw_beladung::/asset/beladung/coil_stahl4.mdl", "mw_beladung::/asset/beladung/coil_stahl5.mdl", "mw_beladung::/asset/beladung/coil_stahl6.mdl", "mw_beladung::/asset/beladung/coil2_stahl.mdl", "mw_beladung::/asset/beladung/coil2_stahl2.mdl", "mw_beladung::/asset/beladung/coil2_stahl3.mdl", "mw_beladung::/asset/beladung/coil2_stahl4.mdl", "mw_beladung::/asset/beladung/coil2_stahl5.mdl", "mw_beladung::/asset/beladung/coil2_stahl6.mdl", "mw_beladung::/asset/beladung/coil3_stahl.mdl", "mw_beladung::/asset/beladung/coil3_stahl2.mdl", "mw_beladung::/asset/beladung/coil3_stahl3.mdl", "mw_beladung::/asset/beladung/coil3_stahl4.mdl", "mw_beladung::/asset/beladung/coil3_stahl5.mdl", "mw_beladung::/asset/beladung/coil3_stahl6.mdl", "mw_beladung::/asset/beladung/coil4_stahl.mdl", "mw_beladung::/asset/beladung/coil4_stahl2.mdl", "mw_beladung::/asset/beladung/coil4_stahl3.mdl", "mw_beladung::/asset/beladung/coil4_stahl4.mdl", "mw_beladung::/asset/beladung/coil4_stahl5.mdl", "mw_beladung::/asset/beladung/coil4_stahl6.mdl", "mw_beladung::/asset/beladung/coil5_stahl.mdl", "mw_beladung::/asset/beladung/coil5_stahl2.mdl", "mw_beladung::/asset/beladung/coil5_stahl3.mdl", "mw_beladung::/asset/beladung/coil5_stahl4.mdl", "mw_beladung::/asset/beladung/coil5_stahl5.mdl", "mw_beladung::/asset/beladung/coil5_stahl6.mdl", "mw_beladung::/asset/beladung/coil6_stahl.mdl", "mw_beladung::/asset/beladung/coil6_stahl2.mdl", "mw_beladung::/asset/beladung/coil6_stahl3.mdl", "mw_beladung::/asset/beladung/coil6_stahl4.mdl", "mw_beladung::/asset/beladung/coil6_stahl5.mdl", "mw_beladung::/asset/beladung/coil6_stahl6.mdl", "mw_beladung::/asset/beladung/coil7_stahl.mdl", "mw_beladung::/asset/beladung/coil7_stahl2.mdl", "mw_beladung::/asset/beladung/coil7_stahl3.mdl", "mw_beladung::/asset/beladung/coil7_stahl4.mdl", "mw_beladung::/asset/beladung/coil7_stahl5.mdl", "mw_beladung::/asset/beladung/coil7_stahl6.mdl", },
+						randomId = 3,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.784999847412109375, 0, 1.5, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_beladung::/asset/beladung/coil_stahl.mdl", "mw_beladung::/asset/beladung/coil_stahl2.mdl", "mw_beladung::/asset/beladung/coil_stahl3.mdl", "mw_beladung::/asset/beladung/coil_stahl4.mdl", "mw_beladung::/asset/beladung/coil_stahl5.mdl", "mw_beladung::/asset/beladung/coil_stahl6.mdl", "mw_beladung::/asset/beladung/coil2_stahl.mdl", "mw_beladung::/asset/beladung/coil2_stahl2.mdl", "mw_beladung::/asset/beladung/coil2_stahl3.mdl", "mw_beladung::/asset/beladung/coil2_stahl4.mdl", "mw_beladung::/asset/beladung/coil2_stahl5.mdl", "mw_beladung::/asset/beladung/coil2_stahl6.mdl", "mw_beladung::/asset/beladung/coil3_stahl.mdl", "mw_beladung::/asset/beladung/coil3_stahl2.mdl", "mw_beladung::/asset/beladung/coil3_stahl3.mdl", "mw_beladung::/asset/beladung/coil3_stahl4.mdl", "mw_beladung::/asset/beladung/coil3_stahl5.mdl", "mw_beladung::/asset/beladung/coil3_stahl6.mdl", "mw_beladung::/asset/beladung/coil4_stahl.mdl", "mw_beladung::/asset/beladung/coil4_stahl2.mdl", "mw_beladung::/asset/beladung/coil4_stahl3.mdl", "mw_beladung::/asset/beladung/coil4_stahl4.mdl", "mw_beladung::/asset/beladung/coil4_stahl5.mdl", "mw_beladung::/asset/beladung/coil4_stahl6.mdl", "mw_beladung::/asset/beladung/coil5_stahl.mdl", "mw_beladung::/asset/beladung/coil5_stahl2.mdl", "mw_beladung::/asset/beladung/coil5_stahl3.mdl", "mw_beladung::/asset/beladung/coil5_stahl4.mdl", "mw_beladung::/asset/beladung/coil5_stahl5.mdl", "mw_beladung::/asset/beladung/coil5_stahl6.mdl", "mw_beladung::/asset/beladung/coil6_stahl.mdl", "mw_beladung::/asset/beladung/coil6_stahl2.mdl", "mw_beladung::/asset/beladung/coil6_stahl3.mdl", "mw_beladung::/asset/beladung/coil6_stahl4.mdl", "mw_beladung::/asset/beladung/coil6_stahl5.mdl", "mw_beladung::/asset/beladung/coil6_stahl6.mdl", "mw_beladung::/asset/beladung/coil7_stahl.mdl", "mw_beladung::/asset/beladung/coil7_stahl2.mdl", "mw_beladung::/asset/beladung/coil7_stahl3.mdl", "mw_beladung::/asset/beladung/coil7_stahl4.mdl", "mw_beladung::/asset/beladung/coil7_stahl5.mdl", "mw_beladung::/asset/beladung/coil7_stahl6.mdl", },
+						randomId = 4,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.784999847412109375, 0, 1.5, 1, },
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 29220,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", "a5", "a6", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 84,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/steel/steel.cargo", },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_sahlmmps.mdl",
+				loadSpeed = 4,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

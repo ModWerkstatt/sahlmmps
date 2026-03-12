@@ -1,0 +1,22 @@
+{
+    "name": "Sahlmmps-t 706.1 / 713 / 721",
+    "summary": "This mod includes 7 paint jobs for the Sahlmmps-t.",
+    "description": "From 1991, new wagons for the transport of coils were procured by the German Federal Railway. These wagons can load up to 107 tonnes and have a tare weight of between 28 t and 34 t. The wagons are mainly used to transport hot-rolled sheet metal coils. The design of the loading frame allows the loading of sheet metal coils at temperatures of up to 600° C, but the loaded vehicle may only be transported when the temperature on the outer skin of the sheet metal coils has reached 100° C. The loading frame, which weighs around 6 tonnes, is removable. It is secured in four sockets in the wagon floor by means of pins.",
+    "localization" : {
+        "de": {
+            "name": "Sahlmmps-t 706.1 / 713 / 721",
+            "summary": "In diesem Mod sind 7 Lackierung des Sahlmmps-t enthalten.",
+            "description": "Ab 1991 wurden bei der Deutschen Bundesbahn neue Wagen für den Transport von Coils beschafft. Diese Wagen können bis zu 107 Tonnen zuladen und haben ein Eigengewicht zwischen 28 t und 34 t. Die Wagen dienen hauptsächlich zur Beförderung warm gewalzter Blechrollen (Coils). Die Konstruktion des Ladegestells erlaubt die Verladung von bis zu 600° C heißen Blechcoils, befördert werden darf das beladene Fahrzeug jedoch erst, wenn die Temperatur an der Außenhaut der Blechrollen 100° C erreicht hat. Das etwa 6 t schwere Ladegestell ist abnehmbar. Es ist in vier Buchsen im Wagenboden durch Zapfen festgelegt."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/sahlmmps"
+}
