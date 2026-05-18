@@ -402,7 +402,7 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/steel/steel.cargo", },
+										cargoTypesIncluded = { "::/cargos/sheet_metal/sheet_metal.cargo", },
 									},
 									loadIndicator = "slots_0",
 									seats = { },
