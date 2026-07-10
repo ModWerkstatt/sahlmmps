@@ -16,13 +16,13 @@
 		{
             "loadBefore": true,
             "mod": {
-                "modId": "mw_beladung",
-                "revisionMax": -1,
-                "revisionMin": 1
+                "modId": "mw_cargo_load",
+                "revisionMin": 1,
+                "revisionMax": -1
             },
             "modInfo": {
-                "displayName": "ModWerkstatt loading",
-                "url": "https://modwerkstatt.com/downloads/tpf3/beladung"
+                "displayName": "ModWerkstatt Cargo Load",
+                "url": "https://modwerkstatt.com/downloads/tpf3/cargo-load"
             },
             "optional": false
         }
